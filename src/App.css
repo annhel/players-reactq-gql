@@ -1,0 +1,61 @@
+section{
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.playerView{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+div{
+    padding:8px
+}
+
+label, legend{
+    color:white;
+    background-color: #929292;
+    padding: 3px;
+}
+
+legend{
+    font-size: larger;
+}
+
+h1{
+    font-size: 30px;
+    font-style: italic;
+    color: #B25F41;
+}
+
+input{
+   padding-block: 4px; 
+   border-radius: 10px;
+   padding-left: 3px;
+}
+
+table{
+    background-color:#B2B2B2;
+    padding: 15px;
+    width: fit-content;
+    border: 5px solid rgb(255, 255, 255);
+    justify-content: space-evenly;
+    color: black;
+}
+
+thead, th{
+    color: white;
+    background-color: #B25F41;
+    padding: 10px;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/3a/38/69/3a3869c5a599d23c0b8fbb501f07520b.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: pixelated;
+}
