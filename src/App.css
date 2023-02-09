@@ -1,7 +1,8 @@
 section{
     padding: 1rem;
     text-align: center;
-    
+    width: 900px;
+    margin: auto;
 }
 
 .playerView{
@@ -35,6 +36,10 @@ input{
    border-radius: 10px;
    padding-left: 3px;
 }
+fieldset{
+    background-color:#b2b2b29a;
+    border-radius: 8px;
+}
 
 table{
     background-color:#B2B2B2;
@@ -58,4 +63,5 @@ body{
     background-size: cover;
     background-attachment: fixed;
     image-rendering: pixelated;
+    background-position:50% 50%;
 }
